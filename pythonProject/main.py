@@ -23,7 +23,7 @@ def decrypt_feedback_cipher(encrypted_text, a, b, c):
     return decrypted_text
 
 # Исходный текст и параметры A, B, C
-original_text = "Hello, World!"
+original_text = input ("Введите текст: ")
 A = 7
 B = 3
 C = 32
